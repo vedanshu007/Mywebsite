@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+.ctbtn{
+    transition: transform 90ms linear;
+   }
+
+   
+
+.contactme button:hover{
+  transform: scale(1.1);
+}
+
+
+.list ul>li>a {
+  margin-left: 40px ;font-weight: bold;
+}
+
+.list ul>li>a:hover {
+  transform: translateY(10%)
+}
+
+a {
+  transition: transform 90ms ease-in-out;
+ }
+
+
+h3 {
+  transition: transform 90ms ease-in-out;
+ }
+
+.contact h3:hover{
+ 
+  transform: scale(1.1);
+}
+
+.infocard {
+  height: 300px;
+  border-radius:20px;
+  margin: 40px;
+  transition: transform 0.2s ease;
+}
+
+.infocard:hover{
+  transform: scale(1.1);
+}
+
+.scrolldown {
+  position: relative;
+  animation-name: example;
+  transition: linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;  
+}
+
+@keyframes example {
+  0%   {top:0px;}
+  25%  {top:10px;}
+  50%  {top:0px;}
+  75%  {top:10px;}
+  100% {top:0px;}
+}
