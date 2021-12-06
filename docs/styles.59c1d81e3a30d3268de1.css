@@ -1,1 +1,18 @@
-html{scroll-behavior:smooth}body{background-color:#fff;font-family:Raleway,sans-serif}.ctbtn{transition:transform 90ms linear}.contactme button:hover{transform:scale(1.1)}.list ul>li>a{margin-left:40px;font-weight:700}.list ul>li>a:hover{transform:translateY(10%)}a,h3{transition:transform 90ms ease-in-out}.contact h3:hover{transform:scale(1.1)}.infocard{height:230px;border-radius:20px;margin:40px;transition:transform .2s ease;width:200px;}.infocard:hover{transform:scale(1.1)}.scrolldown{position:relative;animation-name:example;transition:linear;animation-duration:2s;animation-iteration-count:infinite;animation-direction:alternate-reverse}@keyframes example{0%{top:0}25%{top:10px}50%{top:0}75%{top:10px}to{top:0}}.purplefont{color: blueviolet !important;font-weight: bold !important;text-align: center !important;}.float-insta{position:fixed;width:40px;height:40px;bottom:40px;right:40px;background-color:#8a2be2;color:#FFF;border-radius:50px;text-align:center;box-shadow: 2px 2px 3px #999;}.float-be{position:fixed;width:40px;height:40px;bottom:90px;right:40px;background-color:#8a2be2;color:#FFF;border-radius:50px;text-align:center;box-shadow: 2px 2px 3px #999;}.float-in{position:fixed;width:40px;height:40px;bottom:140px;right:40px;background-color:#8a2be2;color:#FFF;border-radius:50px;text-align:center;box-shadow: 2px 2px 3px #999;}.my-float{margin-top:13px;}
+html{scroll-behavior:smooth}body{background-color:#fff;font-family:Raleway,sans-serif}.ctbtn{transition:transform 90ms linear}.contactme button:hover{transform:scale(1.1)}.list ul>li>a{margin-left:40px;font-weight:700}.list ul>li>a:hover{transform:translateY(10%)}a,h3{transition:transform 90ms ease-in-out}.contact h3:hover{transform:scale(1.1)}.infocard{height:230px;border-radius:20px;margin:40px;transition:transform .2s ease;width:200px;}.infocard:hover{transform:scale(1.1)}.scrolldown{position:relative;animation-name:example;transition:linear;animation-duration:2s;animation-iteration-count:infinite;animation-direction:alternate-reverse}@keyframes example{0%{top:0}25%{top:10px}50%{top:0}75%{top:10px}to{top:0}}.purplefont{color: blueviolet !important;font-weight: bold !important;text-align: center !important;}.float-insta{position:fixed;width:40px;height:40px;bottom:40px;right:35px;background-color:#8a2be2;color:#FFF;border-radius:50px;text-align:center;box-shadow: 2px 2px 3px #999;}.float-be{position:fixed;width:40px;height:40px;bottom:90px;right:35px;background-color:#8a2be2;color:#FFF;border-radius:50px;text-align:center;box-shadow: 2px 2px 3px #999;}.float-in{position:fixed;width:40px;height:40px;bottom:140px;right:35px;background-color:#8a2be2;color:#FFF;border-radius:50px;text-align:center;box-shadow: 2px 2px 3px #999;}.my-float{margin-top:13px;}
+.my-float{
+	margin-top:13px;
+}
+
+.rotate {
+  animation: rotation 8s infinite linear ;
+  animation-direction: alternate;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
