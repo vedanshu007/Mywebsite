@@ -16,3 +16,15 @@ html{scroll-behavior:smooth}body{background-color:#fff;font-family:Raleway,sans-
     transform: rotate(359deg);
   }
 }
+
+.logo{
+
+    height: 30px;
+    width: 30px;
+    margin: 15px 10px 10px 15px;
+  }
+  
+  .logo:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(4px 4px 5px lightgray);
+  }
